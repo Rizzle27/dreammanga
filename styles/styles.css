@@ -1,0 +1,136 @@
+body {
+  background-color: #16161a !important;
+}
+
+main {
+  min-height: 70vh;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #028171;
+}
+
+/* nav,
+footer {
+} */
+
+small {
+  margin: 0 0 0 12px;
+}
+
+#cardManga {
+  border-radius: 0;
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px;
+}
+
+#cardManga:hover {
+  transition: all 0.3s;
+  background-color: rgba(73, 73, 73, 0.654);
+}
+
+#cardInfo {
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px;
+}
+
+#precioCracter::before {
+  content: "$";
+  position: absolute;
+  left: 5px;
+}
+
+.mangaLink:hover {
+  color: #790cc7 !important;
+  transition: all .2s;
+}
+
+.btnFinalizarCompra {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 10px 18px;
+  background-color: #790cc7;
+}
+
+.btnFinalizarCompra:hover {
+  background-color: #5a0995;
+  transition: all 0.2s;
+}
+
+.btnSeguirComprando {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 10px 18px;
+  background-color: #028171;
+}
+
+.btnSeguirComprando:hover {
+  background-color: #00594d;
+  transition: all .2s;
+}
+
+.btnVaciar {
+  padding: 10px 18px;
+  background-color: #DC3545;
+}
+
+.btnVaciar:hover {
+  background-color: #982833;
+  transition: all .2s;
+}
+
+.btnComprar {
+  padding: 6px 18px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #790cc7;
+}
+
+.btnComprar:hover {
+  background-color: #5a0995;
+  transition: all 0.2s;
+}
+
+.btnCantidad {
+  background-color: #028171;
+}
+
+.genero {
+  border-radius: 25px;
+  background-color: #028171;
+}
+
+.portada {
+  object-fit: cover;
+  height: 420px;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(43, 43, 43, 0.698) !important;
+  transition: all 0.2s;
+}
+
+.volver {
+  border-radius: 25px;
+  background-color: #028171;
+  color: white;
+  padding: 6px 12px;
+}
+
+.volver:hover,
+.genero:hover,
+#btn-admin:hover {
+  background-color: #00594d !important;
+  transition: all 0.2s;
+}
+
+@media (max-width: 768px) {
+  #dropdownContenido {
+    background-color: transparent !important;
+  }
+
+  #generos {
+    color: #adadad !important;
+  }
+}
